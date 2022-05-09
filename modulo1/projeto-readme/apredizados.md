@@ -1,0 +1,2 @@
+# Apredizados da semana
+Nessa semana eu aprendi a utilizar o terminal, **Git Bash** e o **Visual Studio Code** não achei fácil no início, mas depois que comecei as atividades foi muito tranquilo ainda tenho muito que aprender nas próximas semanas, github ele não foi difícil, foi apenas confuso, já o slack, zoom e vimeo eu já tinha noção, mas estou ansioso para as próximas aulas
