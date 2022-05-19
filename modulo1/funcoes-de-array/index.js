@@ -119,4 +119,4 @@ console.log(pokemonsNome)
 / /b)
 
 const pokemonsTipos = new Set(pokemons.map((pokemon, index)=>pokemon.tipo)) //valores únicos
-console.log (pokemonsTipos)
+console.log (pokemonsTipos) 
