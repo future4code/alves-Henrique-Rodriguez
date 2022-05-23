@@ -57,7 +57,12 @@ return objetoNumero
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   
+   let nPares = []
+     for (let i = 0 ;i <=2*(n-1) ; i++)
+        if (i%2===0){
+            nPares.push(i)
+        }
+        return nPares
 }
 
 // EXERCÍCIO 09
