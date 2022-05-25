@@ -1,0 +1,24 @@
+.cabecalho {
+    color: rgba(97, 96, 96, 0.992);
+    background-color: rgb(147, 201, 247);
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.992);
+    margin: 2%;
+    display: inline-block;
+}
+body {
+    
+    background-color: rgba(248, 192, 250, 0.992);
+    color: rgb(103, 100, 167);
+}
+a {
+    background-color: rgba(151, 153, 155, 0.992);
+    border: solid;
+    border-color: rgba(102, 102, 102, 0.992);
+    color: black;
+    text-decoration-line: none;
+}
+main {
+    font-size: 250%;
+    margin: 2%;
+}
