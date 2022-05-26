@@ -121,18 +121,24 @@ td button {
     margin-top: 20px;
     height: 100px;
 }
-
-
-#back-button {
-    background-color: white;
-    width: 100px;
-    height: 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-size: 10px;
-    color: black;
-}
-
-#back-button:hover {
-    background-color: #635a3d
-}
+#back-button {}
+    .back-button {
+        background-color: white;
+        width: 100px;
+        height: 20px;
+    }
+    @@ -132,6 +132,13 @@ td button {
+        color: black;
+    }
+    
+    #back-button:hover {}
+    .back-button:hover {
+        background-color: #635a3d
+    }
+    
+    .butao-compra:hover{
+        background-color: #6e601d;
+    }
+    .butao-compra:active{
+        color: white;
+    }
