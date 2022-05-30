@@ -12,4 +12,4 @@
     return `O número ${numeroEscolhido} aparece ${numero}x` 
   } else{
     return `Número não encontrado`
-  } ```
+  }```
