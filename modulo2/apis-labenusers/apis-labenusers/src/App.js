@@ -44,7 +44,7 @@ class App extends React.Component {
 
       {
         headers: {
-          Authorization: "arthur-fernandes-alves"
+          Authorization: "henrique-rodriguez-alves"
         }
       })
       .then((resposta) => {
@@ -61,7 +61,7 @@ class App extends React.Component {
       `https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/${id}`,
       {
         headers: {
-          Authorization: "arthur-fernandes-alves"
+          Authorization: "henrique-rodriguez-alves"
         }
       })
   .then((resposta) => {
