@@ -1,25 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { Component } from 'react'
+import CriarPlaylist from './components/CriarPlaylist'
+import VisualizarPlaylist from './components/VisualizarPlaylist'
+import styled from 'styled-components'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Container = styled.div`
+  width: 1120px;
+  height: 80vh;
+  margin: 50px auto;
+  padding: 50px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: grey;
+  overflow: auto;
+`
+const TelaPrincipal = styled.div`
+  background-color: black;
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+`
+
+export default class App extends Component {
+  render() {
+    return (
+      <TelaPrincipal>
+        <Container>
+          <CriarPlaylist />
+          <VisualizarPlaylist />
+        </Container>
+      </TelaPrincipal>
+    )
+  }
 }
-
-export default App;
