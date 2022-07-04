@@ -17,7 +17,7 @@ const Botao = styled.button`
     :hover{
         top:-4px;
         box-shadow:0 4px 3px #999;
-        background-color: grey;
+        background-color: white;
         color: #696969;
   }
 `
