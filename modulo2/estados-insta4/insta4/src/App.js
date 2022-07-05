@@ -26,7 +26,7 @@ class App extends React.Component {
     }],
   }
 
-
+ 
   adicionaPost = () => {
     const novoPost = {
 
