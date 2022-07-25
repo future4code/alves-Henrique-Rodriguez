@@ -13,7 +13,7 @@ const ListTripsPage = () => {
   const getTrips = () => {
     axios
       .get(
-        "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez/trips"
+        "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez-alves/trips"
       )
       .then((response) => {
         setTrips(response.data.trips);

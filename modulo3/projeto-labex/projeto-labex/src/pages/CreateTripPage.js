@@ -49,7 +49,7 @@ const CreateTripPage = () => {
 
     axios
       .post(
-        "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez/trips",
+        "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez-alves/trips",
         body,
         headers
       )

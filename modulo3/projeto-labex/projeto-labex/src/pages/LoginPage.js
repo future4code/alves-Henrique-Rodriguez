@@ -18,7 +18,7 @@ export const LoginPage = () => {
   const onSubmitLogin = (event) => {
     event.preventDefault();
     const URL =
-      "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez/login";
+      "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez-alves/login";
 
     const body = {
       email: email,

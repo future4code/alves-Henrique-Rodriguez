@@ -19,7 +19,7 @@ const AdminHomePage = () => {
     };
     axios
       .delete(
-        `https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez/trips/${id}`,
+        `https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez-alves/trips/${id}`,
         headers
       )
       .then((res) => {
@@ -34,7 +34,7 @@ const AdminHomePage = () => {
   const getTripsAdm = () => {
     axios
       .get(
-        "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez/trips"
+        "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez-alves/trips"
       )
       .then((response) => {
         setAdmTrips(response.data.trips);

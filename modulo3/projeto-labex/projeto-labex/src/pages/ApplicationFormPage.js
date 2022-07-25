@@ -38,7 +38,7 @@ const ApplicationFormPage = () => {
   const getTripsAFP = () => {
     axios
       .get(
-        "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez/trips"
+        "https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez-alves/trips"
       )
       .then((res) => {
         setTripsAPF(res.data.trips);
@@ -61,7 +61,7 @@ const ApplicationFormPage = () => {
 
     axios
       .post(
-        `https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez/trips/${id}/apply`,
+        `https://us-central1-labenu-apis.cloudfunctions.net/labeX/henrique-rodriguez-alves/trips/${id}/apply`,
         body
       )
       .then((res) => {
